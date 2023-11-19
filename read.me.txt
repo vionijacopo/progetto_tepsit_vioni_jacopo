@@ -1,0 +1,26 @@
+# Progetto Gestione Dipendenti - Jacopo Vioni
+
+## Descrizione del Progetto
+Questo progetto gestisce le informazioni sui dipendenti e le relative zone di lavoro attraverso due tabelle: `dipendenti_jacopo_vioni` e `zona_di_lavoro_jacopo_vioni`.
+
+## Requisiti
+- Python 3.x
+- Database MySQL
+- Librerie Python: `mysql-connector`, `refereces`
+
+## Configurazione
+1. Assicurarsi che Python sia installato sul sistema.
+2. Creare un ambiente virtuale .
+3. Installare le librerie necessarie con `pip install -r requirements.txt`.
+
+## Struttura del Database
+- `dipendenti_jacopo_vioni`: Contiene informazioni sui dipendenti (id, nome, cognome, posizionelavorativa, dataassunzione, eta, stipendioxmese).
+- `zona_di_lavoro_jacopo_vioni`: Contiene informazioni sulle zone di lavoro (idzona, nomezona, numeroclienti, iddipendenti).
+
+## Utilizzo
+### 1. importa il database/ le tabelle consegnate su phpmyadmin
+
+### 2. Aprire su "visual studio code" i file 
+
+### 3. Eseguire i file (in ordine prima il server dopo il client) e provare le query
+
